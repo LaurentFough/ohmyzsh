@@ -1,13 +1,13 @@
-# OSX plugin
+# macOS plugin
 
 ## Description
 
-This plugin provides a few utilities to make it more enjoyable on OSX.
+This plugin provides a few utilities to make it more enjoyable on macOS.
 
-To start using it, add the `osx` plugin to your plugins array in `~/.zshrc`:
+To start using it, add the `macos` plugin to your plugins array in `~/.zshrc`:
 
 ```zsh
-plugins=(... osx)
+plugins=(... macos)
 ```
 
 Original author: [Sorin Ionescu](https://github.com/sorin-ionescu)
@@ -51,12 +51,13 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 | `pfd`           | Return the path of the frontmost Finder window        |
 | `pfs`           | Return the current Finder selection                   |
 | `cdf`           | `cd` to the current Finder directory                  |
+| - `cdfinder`    | `cd` to the current Finder directory                  |
 | `pushdf`        | `pushd` to the current Finder directory               |
 | `quick-look`    | Quick-Look a specified file                           |
 | `man-preview`   | Open a specified man page in Preview app              |
 | `showfiles`     | Show hidden files                                     |
 | `hidefiles`     | Hide the hidden files                                 |
-| `itunes`        | DEPRECATED. Use `music` from macOS Catalina on        |
 | `music`         | Control Apple Music. Use `music -h` for usage details |
+| - `itunes`      | DEPRECATED. Use `music` from macOS Catalina on        |
 | `spotify`       | Control Spotify and search by artist, album, track…   |
-| `rmdsstore`     | Remove .DS\_Store files recursively in a directory    |
+| `rmdsstore`     | Remove `.DS_Store` files recursively in a directory   |
